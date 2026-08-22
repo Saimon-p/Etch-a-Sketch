@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1>Etch-a-Sketch</h1>
+        <h3>Move your mouse across the canvas and start drawing!</h3>
+    </div>
+
+    <div class="main-container">
+        <div class="menu-container">
+            <div class="color-picker-container">
+                <div class="pen-color-box"><input value="white" type="color" name="penColor" id="penColor"><span>Pen Color</span></div>
+                <div class="background-color-box"><input value="white" type="color" name="backColor" id="backColor"><span>Background Color</span></div>
+                <button class="color-fill-button">Color Fill</button>
+            </div>
+
+            <div class="mode-button-container">
+                <button>Toggle Hover</button>
+                <button>Toogle Eraser</button>
+                <button>Toogle Rainbow</button>
+                <button>Toogle Shading</button>
+                <button>Toogle Lighten</button>
+            </div>
+
+            <div class="grid-button-container">
+                <input type="range" id="grid-size-input" min="1" max="64" name="grid-size">
+                <label for="grid-size">Grid Size: <span>0</span> x <span>0</span></label>
+                <button>Toogle Grid Lines</button>
+                <button>Clear</button>
+            </div>
+        </div>
+
+        <div class="game-container">
+            
+        </div>
+    </div>
+</body>
+</html>

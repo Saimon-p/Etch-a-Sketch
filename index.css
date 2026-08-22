@@ -1,0 +1,162 @@
+@font-face {
+    font-family: mine;
+    src: url('./res/Minecraft.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #031d3f;
+    color: white;
+    font-family: mine;
+    margin-bottom: 20rem;
+}
+
+.title-container{
+    text-align: center;
+    margin-block: 4rem;
+}
+
+.title-container h1{
+    font-size: 5rem;
+    color: #01EC33;
+    font-weight: normal;
+}
+
+.title-container h3{
+    color: #00FFFF;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.main-container{
+    display: flex;
+    gap: 3rem;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.menu-container{
+    width: 35rem;
+    max-width: 35rem;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 1.5rem;
+    background-color: #073054c7;
+}
+
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.color-picker-container div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.color-picker-container input[type='color']{
+    appearance: none;
+    width: 48px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.color-picker-container input::-webkit-color-swatch {
+  border-radius: 5px;
+  border: none;
+}
+
+.color-picker-container input::-moz-color-swatch {
+  border-radius: 5px;
+  border: none;
+}
+
+.color-picker-container div span{
+    margin-top: 8px;
+    color: #0ff;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+button{
+    font-family: mine;
+    background-color: transparent;
+    border: 1px solid #01EC33;
+    color: #01EC33;
+    font-size: 1.2rem;
+    padding-block: 1.3rem 0.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+.mode-button-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.grid-button-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+.grid-button-container input[type='range']{
+    appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type='range']::-webkit-slider-runnable-track{
+    height: 6px;
+    background: #031d3f;
+    border-radius: 10px;
+}
+
+input[type='range']::-webkit-slider-thumb{
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    margin-top: -6px;
+    border-radius: 50%;
+    background: #00FFFF;
+}
+
+
+
+
+
+.grid-button-container label{
+    margin-block: 1rem;
+}
+
+
+
+.game-container{
+    border: 1px solid green;
+    width: 100%;
+    margin-right: 50px;
+}
+
+
+
