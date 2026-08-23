@@ -16,8 +16,8 @@
     <div class="main-container">
         <div class="menu-container">
             <div class="color-picker-container">
-                <div class="pen-color-box"><input value="white" type="color" name="penColor" id="penColor"><span>Pen Color</span></div>
-                <div class="background-color-box"><input value="white" type="color" name="backColor" id="backColor"><span>Background Color</span></div>
+                <div class="pen-color-box"><input value="#000000" type="color" id="penColor"><span>Pen Color</span></div>
+                <div class="background-color-box"><input value="#FFFFFF" type="color" name="backColor" id="backColor"><span>Background Color</span></div>
                 <button class="color-fill-button">Color Fill</button>
             </div>
 
@@ -30,10 +30,10 @@
             </div>
 
             <div class="grid-button-container">
-                <input type="range" id="grid-size-input" min="1" max="64" name="grid-size">
-                <label for="grid-size">Grid Size: <span>0</span> x <span>0</span></label>
-                <button>Toogle Grid Lines</button>
-                <button>Clear</button>
+                <input value="10" type="range" id="grid-size-input" min="1" max="64" name="grid-size">
+                <label for="grid-size">Grid Size: <span>10</span> x <span>10</span></label>
+                <button value="gridLines">Toogle Grid Lines</button>
+                <button value="clear">Clear</button>
             </div>
         </div>
 
@@ -41,5 +41,7 @@
             
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>

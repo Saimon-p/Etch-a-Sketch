@@ -37,18 +37,21 @@ body{
 
 .main-container{
     display: flex;
-    gap: 3rem;
-    margin: 0 auto;
-    max-width: 1300px;
+    height: 780px;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .menu-container{
-    width: 35rem;
-    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25rem;
+    min-width: 25rem;
     border-radius: 5px;
-    margin-left: 50px;
     padding: 1.5rem;
     background-color: #073054c7;
+    overflow: hidden;
 }
 
 .color-picker-container{
@@ -120,7 +123,6 @@ button:hover{
     text-align: center;
 }
 
-
 .grid-button-container input[type='range']{
     appearance: none;
     width: 100%;
@@ -142,21 +144,42 @@ input[type='range']::-webkit-slider-thumb{
     background: #00FFFF;
 }
 
-
-
-
-
 .grid-button-container label{
     margin-block: 1rem;
 }
 
-
-
-.game-container{
-    border: 1px solid green;
-    width: 100%;
-    margin-right: 50px;
+.grid-button-container button.active{
+    background-color: #01EC33;
+    color: #031d3f;
+    border-color: #031d3f;
 }
 
+.game-container{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    box-shadow: rgba(1, 236, 52, 0.411) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    flex: 1;
+    user-select: none;
+}
+
+.row.row-bordered{
+    border-bottom: 1px solid black;
+}
+
+.column.column-bordered{
+    border-right: 1px solid black;
+}
 
 
