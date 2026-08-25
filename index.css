@@ -148,7 +148,7 @@ input[type='range']::-webkit-slider-thumb{
     margin-block: 1rem;
 }
 
-.grid-button-container button.active{
+button.active{
     background-color: #01EC33;
     color: #031d3f;
     border-color: #031d3f;
@@ -157,10 +157,14 @@ input[type='range']::-webkit-slider-thumb{
 .game-container{
     height: 100%;
     aspect-ratio: 1/1;
-    background-color: white;
     box-shadow: rgba(1, 236, 52, 0.411) 0px 5px 15px;
     display: flex;
     flex-direction: column;
+    cursor: url('./res/Final-brush.svg') 3 42, auto;
+}
+
+.game-container.cursored{
+    cursor: url('./res/eye-dropper.svg') 3 42, auto;
 }
 
 .row{
@@ -172,14 +176,34 @@ input[type='range']::-webkit-slider-thumb{
 .column{
     flex: 1;
     user-select: none;
+    /* filter: brightness(0%); */
 }
 
 .row.row-bordered{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(71, 71, 71);
 }
 
 .column.column-bordered{
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(71, 71, 71);
 }
 
+footer p{
+    padding-block: 2rem;
+    font-size: 1.3rem;
+}
+
+footer p,
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    color: white;
+    gap: 4px;
+}
+
+footer a img{
+    width: 34px;
+    margin-inline: 0.5rem;
+}
 

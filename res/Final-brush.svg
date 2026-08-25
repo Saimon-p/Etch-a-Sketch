@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="17.54809"
+   height="17.580753"
+   viewBox="-2.4 -2.4 21.057708 21.096904"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1"
+     transform="translate(-2.9023281,-2.9398036)"
+     style="fill:#ffffff">
+    <g
+       id="SVGRepo_bgCarrier"
+       stroke-width="0"
+       transform="matrix(-0.09866959,-0.11070353,0.26581177,-0.2933352,20.788252,8.1958374)"
+       style="fill:#ffffff">
+      <rect
+         style="fill:#ffffff;stroke-width:6.86901"
+         id="rect2"
+         width="16.427029"
+         height="40.538593"
+         x="16.32832"
+         y="11.061311"
+         transform="matrix(0.19075455,-0.98163776,0.99993293,-0.01158142,0,0)" />
+      <rect
+         x="-48.274803"
+         y="-17.581713"
+         width="33.196945"
+         height="25.385143"
+         rx="0"
+         fill="#ffffff"
+         strokewidth="0"
+         id="rect1"
+         style="fill:#ffffff;stroke-width:0"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:#ffffff;stroke-width:3.93465"
+         id="rect3"
+         width="32.864975"
+         height="5.4844475"
+         x="-55.398407"
+         y="29.566284"
+         transform="matrix(-0.99930527,0.03726886,0.03913817,-0.99923381,0,0)" />
+      <rect
+         style="fill:#ffffff;stroke-width:0"
+         id="rect4"
+         width="29.030724"
+         height="28.171394"
+         x="-100.29615"
+         y="31.126133"
+         transform="matrix(-0.93559013,0.35308796,-0.93749489,-0.34799903,0,0)" />
+    </g>
+    <g
+       id="SVGRepo_iconCarrier"
+       transform="translate(-0.78971682,-1.1105399)"
+       style="fill:#ffffff">
+      <path
+         d="m 8.99997,11.2224 3.77783,3.7778 M 7.97485,20.975 C 6.60801,22.3419 4,22.0002 2,22.0002 c 1.0251,-2 -0.34173,-4.6081 1.0251,-5.9749 1.36684,-1.3668 3.58291,-1.3668 4.94975,0 1.36683,1.3668 1.36683,3.5829 0,4.9497 z M 11.9216,15.9248 21.0587,6.05671 C 21.8635,5.18755 21.8375,3.83776 20.9999,3.00017 20.1624,2.16258 18.8126,2.13663 17.9434,2.94141 L 8.07534,12.0785 c -0.50994,0.4722 -0.76491,0.7083 -0.91361,0.96 -0.35659,0.6038 -0.37094,1.3502 -0.03782,1.9672 0.13892,0.2574 0.38462,0.5031 0.87604,0.9945 0.49141,0.4914 0.73712,0.7371 0.99443,0.876 0.61702,0.3331 1.36342,0.3188 1.96722,-0.0378 0.2518,-0.1487 0.4878,-0.4037 0.96,-0.9136 z"
+         stroke="#000000"
+         stroke-width="1.416"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>
